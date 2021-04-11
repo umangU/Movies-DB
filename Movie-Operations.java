@@ -44,6 +44,7 @@ public class  movie_operations
         //Catch block to handle Input/Output and Formatting Exceptions
         catch (IOException err)
         {
+          // Print Input/Output exception error
           System.out.println(err);
         }
         catch(NumberFormatException err)
