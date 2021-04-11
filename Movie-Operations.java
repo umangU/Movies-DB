@@ -1,3 +1,4 @@
+// Libraries imported
 import java.sql.*;
 import java.util.*;
 import java.io.*;
@@ -8,6 +9,7 @@ public class  movie_operations
 {
     public static void main(String [] argv) throws Exception
     {
+        // Declaring the connection variable
         Connection conn = null;
         // Create a new InputStreamReader and connecting to STDIN
         InputStreamReader istream = new InputStreamReader(System.in);
