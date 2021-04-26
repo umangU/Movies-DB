@@ -1,4 +1,4 @@
-/* customer Table*/
+/* Customer Table */
 CREATE TABLE Customers (
   customer_id   INTEGER PRIMARY KEY,
   last_name     VARCHAR(50) NOT NULL, 
@@ -9,7 +9,7 @@ CREATE TABLE Customers (
   postcode   VARCHAR(8)
   );
 
-/* movies Table*/                              
+/* Movies Table */                              
 CREATE TABLE Movies (
   movie_id     INTEGER PRIMARY KEY,
   movie_title  VARCHAR(100) NOT NULL,
