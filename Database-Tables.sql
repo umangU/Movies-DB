@@ -23,7 +23,7 @@ CREATE TABLE Movies (
   current_stock REAL CHECK(current_stock >= 0)
 );
 
-/*Shipments Table */ 
+/* Shipments Table */ 
 CREATE TABLE Shipments (
   shipment_id INTEGER PRIMARY KEY,
   customer_id  INTEGER NOT NULL,
