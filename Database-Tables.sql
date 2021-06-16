@@ -1,4 +1,4 @@
-/* Customer Table */
+/*Customer Table */
 CREATE TABLE Customers (
   customer_id   INTEGER PRIMARY KEY,
   last_name     VARCHAR(50) NOT NULL, 
@@ -9,7 +9,7 @@ CREATE TABLE Customers (
   postcode   VARCHAR(8)
   );
 
-/* Movies Table */                              
+/*Movies Table */                              
 CREATE TABLE Movies (
   movie_id     INTEGER PRIMARY KEY,
   movie_title  VARCHAR(100) NOT NULL,
@@ -23,7 +23,7 @@ CREATE TABLE Movies (
   current_stock REAL CHECK(current_stock >= 0)
 );
 
-/* Shipments Table */ 
+/*Shipments Table */ 
 CREATE TABLE Shipments (
   shipment_id INTEGER PRIMARY KEY,
   customer_id  INTEGER NOT NULL,
